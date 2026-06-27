@@ -1,0 +1,10 @@
+{
+  "channels": {
+    "sprint-main": "C0BC3GR325P",
+    "agent-coder": "C0BBL75J5AB",
+    "agent-log": "C0BBVAUNJSF",
+    "ci-cd": "C0BDH0CABGV",
+    "human-review": "C0BDJ9CV2PQ"
+  },
+  "exported": "2026-06-27"
+}
