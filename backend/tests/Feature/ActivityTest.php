@@ -27,4 +27,17 @@ class ActivityTest extends TestCase {
         $tB = Ticket::create(['organization_id'=>$orgB->id,'subject'=>'B','description'=>'d','status'=>'open','priority'=>'low','requester_id'=>$b->id]);
         $this->actingAs($a,'sanctum')->getJson("/api/tickets/{$tB->id}/activity")->assertNotFound();
     }
+
+    public function test_reply_and_assignment_are_logged(): void {
+        $org = Organization::create(['name'=>'Acme']);
+        $agent = User::create(['organization_id'=>$org->id,'name'=>'Ag','email'=>'ag2@a.test','password'=>Hash::make('password'),'role'=>'agent']);
+        $cust = User::create(['organization_id'=>$org->id,'name'=>'C','email'=>'c2@a.test','password'=>Hash::make('password'),'role'=>'customer']);
+        $this->actingAs($agent,'sanctum');
+        $t = Ticket::create(['organization_id'=>$org->id,'subject'=>'S','description'=>'d','status'=>'open','priority'=>'low','requester_id'=>$cust->id]);
+        $t->update(['assignee_id'=>$agent->id]);
+        $t->replies()->create(['organization_id'=>$org->id,'user_id'=>$agent->id,'body'=>'hi','is_internal'=>false]);
+        $names = array_column($this->getJson("/api/tickets/{$t->id}/activity")->json(), 'event');
+        $this->assertContains('assigned', $names);
+        $this->assertContains('replied', $names);
+    }
 }
