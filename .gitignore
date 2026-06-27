@@ -23,3 +23,5 @@ node_modules/
 .idea/
 .vscode/
 __pycache__/
+/backend/.env
+/frontend/.env

@@ -126,10 +126,10 @@ All agent model calls route through **EastRouter** (`https://api.eastrouter.com`
 
 | Use                        | Model                          |
 |----------------------------|--------------------------------|
-| Planning / architecture    | `deepseek/deepseek-v4-pro`     |
+| Planning / architecture    | `z-ai/glm-5.1`     |
 | Bulk coding (default)      | `z-ai/glm-5.1`                 |
-| Long-horizon coding        | `moonshotai/kimi-k2.6`         |
-| Cheap repetitive edits     | `z-ai/glm-4.5-air` / `deepseek/deepseek-v4-flash` |
+| Long-horizon coding        | `moonshotai/kimi-k2.7-code`         |
+| Cheap repetitive edits     | `z-ai/glm-4.5-air` |
 
 Agent configs: [`agents/hermes/hermes-config.yaml`](agents/hermes/hermes-config.yaml)
 (planner, memory enabled) and [`agents/openclaw/openclaw.json`](agents/openclaw/openclaw.json)
