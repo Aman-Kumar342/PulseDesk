@@ -60,4 +60,8 @@ class TicketController extends Controller {
         };
         return response()->streamDownload($cb, 'tickets.csv', ['Content-Type' => 'text/csv']);
     }
+
+    public function activity(Ticket $ticket) {
+        return $ticket->activities()->with('actor')->get();
+    }
 }
