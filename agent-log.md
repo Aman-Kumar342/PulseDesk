@@ -12,3 +12,8 @@ each sprint runs. Do not fabricate; entries are copied from Slack.
 
 ## Sprint 01 — (pending)
 (Will contain: your prompt to Hermes -> Hermes plan/assignment -> OpenClaw report.)
+
+## 2026-06-27 — Agents re-pointed to EastRouter (Step 1 done)
+- Hermes (planner): provider=custom, base_url=https://api.eastrouter.com/v1, model=z-ai/glm-5.1, memory_enabled=true. Verified: `hermes -z "...PONG"` → PONG. Gateway restarted.
+- OpenClaw (coder): provider eastrouter (api=openai-completions), model=eastrouter/z-ai/glm-5.1, workspace=/home/aman/PulseDesk. Verified: `openclaw agent --local` → PONG (direct, no fallback).
+- Redacted configs committed under agents/.

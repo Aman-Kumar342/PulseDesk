@@ -1,0 +1,232 @@
+{
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "<REDACTED>"
+    },
+    "mode": "local",
+    "port": 18789,
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-06-21T08:06:01.576Z",
+    "lastRunVersion": "2026.6.9",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.10",
+    "lastTouchedAt": "2026-06-27T09:28:21.578Z"
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "/home/aman/PulseDesk",
+      "models": {
+        "eastrouter/z-ai/glm-5.1": {},
+        "eastrouter/z-ai/glm-4.5-air": {},
+        "eastrouter/moonshotai/kimi-k2.7-code": {}
+      },
+      "model": {
+        "primary": "eastrouter/z-ai/glm-5.1"
+      },
+      "memorySearch": {
+        "enabled": false
+      },
+      "thinkingDefault": "off",
+      "bootstrapMaxChars": 800
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "messaging"
+  },
+  "plugins": {
+    "allow": [
+      "slack",
+      "groq"
+    ]
+  },
+  "channels": {
+    "slack": {
+      "enabled": true,
+      "botToken": "${SLACK_BOT_TOKEN}",
+      "appToken": "${SLACK_APP_TOKEN}",
+      "groupPolicy": "open",
+      "channels": {
+        "C0BBL75J5AB": {
+          "enabled": true
+        },
+        "C0BBVAUNJSF": {
+          "enabled": true
+        },
+        "C0BC3GR325P": {
+          "enabled": true
+        }
+      },
+      "capabilities": {
+        "interactiveReplies": true
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "<REDACTED>"
+      },
+      "eastrouter": {
+        "baseUrl": "https://api.eastrouter.com/v1",
+        "apiKey": "${EASTROUTER_API_KEY}",
+        "models": [
+          {
+            "id": "z-ai/glm-5.1",
+            "name": "GLM 5.1",
+            "reasoning": true,
+            "contextWindow": 200000
+          },
+          {
+            "id": "z-ai/glm-4.5-air",
+            "name": "GLM 4.5 Air",
+            "contextWindow": 128000
+          },
+          {
+            "id": "moonshotai/kimi-k2.7-code",
+            "name": "Kimi K2.7 Code",
+            "contextWindow": 262144
+          }
+        ],
+        "api": "openai-completions",
+        "auth": "api-key"
+      }
+    }
+  }
+}
