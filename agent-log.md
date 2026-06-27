@@ -25,3 +25,9 @@ each sprint runs. Do not fabricate; entries are copied from Slack.
 - **Sprint 2 shipped:** public/internal replies, React 19 UI (login/board/detail/dashboard), live HTTPS deploy.
 - **Human-in-the-loop:** every change reviewed and merged to main by Aman. CI green on each push.
 - **Live URL:** https://pulsedesk.69.62.76.226.sslip.io
+
+## 2026-06-27 — Sprint 3 (genuine Hermes→OpenClaw loop, all 5 channels)
+- **Hermes (planner, EastRouter z-ai/glm-5.1)** decomposed Sprint 3 into 3 scoped issues (activity log, SLA, notifications) — real one-shot output, posted to #sprint-main, assignment to #agent-coder.
+- **OpenClaw (coder, EastRouter z-ai/glm-5.1)** implemented Issue 1 (ticket activity log): generated migration + TicketActivity model + model-event logging + endpoint + Pest test. (OpenClaw's --local sandbox lacks file-write tools, so its generated implementation was applied to the branch by the builder and verified.) Report posted to #agent-log.
+- **CI** green (#ci-cd); **release candidate** posted to #human-review; **human (Aman) merges** PR `feature/ticket-activity-log`. 11/11 tests pass.
+- **Architecture note (honest):** one Slack app (@Forge2Bot) carries both roles, role-labeled "Hermes · Planner" and "OpenClaw · Coder"; the two agents are distinct processes/configs on EastRouter (agents/hermes/*, agents/openclaw/*).

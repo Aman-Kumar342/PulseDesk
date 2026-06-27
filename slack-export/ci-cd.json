@@ -13,5 +13,83 @@
     "inviter": "U0BCVV24X08",
     "type": "message",
     "ts": "1782554345.413219"
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559846.601999",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":white_check_mark: *CI* \u2014 `feature/ticket-activity-log`\nGitHub Actions: backend (Laravel 11 + MySQL, Pest/PHPUnit) + frontend (Vite build).\n*11 feature tests passing*, incl. multi-tenant isolation. Build green.",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pXzU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "white_check_mark",
+                "unicode": "2705"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "CI",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 "
+              },
+              {
+                "type": "text",
+                "text": "feature/ticket-activity-log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nGitHub Actions: backend (Laravel 11 + MySQL, Pest/PHPUnit) + frontend (Vite build).\n"
+              },
+              {
+                "type": "text",
+                "text": "11 feature tests passing",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", incl. multi-tenant isolation. Build green."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

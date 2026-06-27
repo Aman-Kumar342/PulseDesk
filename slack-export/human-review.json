@@ -13,5 +13,83 @@
     "inviter": "U0BCVV24X08",
     "type": "message",
     "ts": "1782554312.112119"
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559847.882669",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":clipboard: *Release candidate* \u2014 PR `feature/ticket-activity-log` (ticket activity log)\nCI green \u00b7 11 tests pass \u00b7 tenancy verified.\n@Aman please review &amp; *merge to main* (human approval gate).",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Tquk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "clipboard",
+                "unicode": "1f4cb"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Release candidate",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 PR "
+              },
+              {
+                "type": "text",
+                "text": "feature/ticket-activity-log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (ticket activity log)\nCI green \u00b7 11 tests pass \u00b7 tenancy verified.\n@Aman please review & "
+              },
+              {
+                "type": "text",
+                "text": "merge to main",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (human approval gate)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

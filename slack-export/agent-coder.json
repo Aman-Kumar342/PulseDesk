@@ -159,7 +159,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "fwDF2",
+        "block_id": "ozMI",
         "elements": [
           {
             "type": "rich_text_section",
@@ -232,7 +232,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "5V3g/",
+        "block_id": "izf",
         "elements": [
           {
             "type": "rich_text_section",
@@ -343,7 +343,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "f1tX",
+        "block_id": "HAhY",
         "elements": [
           {
             "type": "rich_text_section",
@@ -416,7 +416,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "L2P/",
+        "block_id": "i0Y",
         "elements": [
           {
             "type": "rich_text_section",
@@ -494,7 +494,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "5sTV",
+        "block_id": "etT+h",
         "elements": [
           {
             "type": "rich_text_section",
@@ -547,7 +547,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "t9v",
+        "block_id": "q/L6",
         "elements": [
           {
             "type": "rich_text_section",
@@ -649,7 +649,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "2drS",
+        "block_id": "Ao6v",
         "elements": [
           {
             "type": "rich_text_section",
@@ -702,7 +702,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "WJj",
+        "block_id": "NOH",
         "elements": [
           {
             "type": "rich_text_section",
@@ -798,7 +798,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "A9S",
+        "block_id": "aAzH",
         "elements": [
           {
             "type": "rich_text_section",
@@ -851,7 +851,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "MUMlK",
+        "block_id": "I7Ipn",
         "elements": [
           {
             "type": "rich_text_section",
@@ -978,7 +978,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "8Oi9r",
+        "block_id": "dRPie",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1031,7 +1031,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "6plV",
+        "block_id": "P3Agg",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1086,7 +1086,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "bldvT",
+        "block_id": "eXRo",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1300,7 +1300,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "=+W",
+        "block_id": "R3gp",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1353,7 +1353,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "CpPt",
+        "block_id": "xfHfp",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1442,7 +1442,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "XnL",
+        "block_id": "E24tZ",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1495,7 +1495,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "HqQsn",
+        "block_id": "Om8",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1624,7 +1624,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "JuXak",
+            "block_id": "x69h3",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -1671,7 +1671,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "7KW",
+            "block_id": "UTF8Y",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -1718,7 +1718,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "qveVM",
+            "block_id": "yfk",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -1790,7 +1790,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "gSI",
+            "block_id": "FIVt",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -1842,22 +1842,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "HNbMl",
+        "block_id": "jthT",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1931,7 +1931,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "aS40n",
+        "block_id": "eaI",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2005,7 +2005,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "CE9Gj",
+        "block_id": "pYy",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2079,7 +2079,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "hwA",
+        "block_id": "t1HW",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2153,7 +2153,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "s11",
+        "block_id": "hL6V6",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2276,7 +2276,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "MfZ",
+            "block_id": "wySxB",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -2396,7 +2396,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "OqC3W",
+            "block_id": "2Ka",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -2516,7 +2516,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "SwE",
+            "block_id": "lyV",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -2654,7 +2654,7 @@
         "blocks": [
           {
             "type": "rich_text",
-            "block_id": "VrhL",
+            "block_id": "kvr",
             "elements": [
               {
                 "type": "rich_text_section",
@@ -2664,6 +2664,239 @@
                     "text": "I'll check the status of the Kanban board.\n\n**What I Did**\n- (bullets: Kanban live, Laravel API, React UI, Slack wired, cron heartbeat)\n\n**What's Left**\n- (bullets: demo video, final screenshots, submit form)\n\n**What Needs Your Call**\n- (bullets: any human decision)\n\nThe Kanban board is currently live on the provided URL. However, I don't have real-time information on any potential issues."
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559842.795439",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":brain: *Hermes \u2192 OpenClaw* \u2014 Sprint 3 / Issue 1 assignment\n\nImplement the *ticket activity log (audit trail)* on branch `feature/ticket-activity-log`:\n\u2022 migration `ticket_activities` + `TicketActivity` model using `BelongsToOrganization` (org-scoped from the auth session)\n\u2022 auto-log `created / status_changed / assigned` (Ticket events) and `replied` (TicketReply)\n\u2022 `GET /api/tickets/{ticket}/activity` newest-first\n\u2022 Pest test: logging + cross-tenant isolation\nOpen a PR \u2014 *human merges*. Report to #agent-log as What I Did / What's Left / What Needs Your Call.",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l5rr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "brain",
+                "unicode": "1f9e0"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Hermes \u2192 OpenClaw",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 Sprint 3 / Issue 1 assignment\n\nImplement the "
+              },
+              {
+                "type": "text",
+                "text": "ticket activity log (audit trail)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " on branch "
+              },
+              {
+                "type": "text",
+                "text": "feature/ticket-activity-log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ":\n\u2022 migration "
+              },
+              {
+                "type": "text",
+                "text": "ticket_activities",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " + "
+              },
+              {
+                "type": "text",
+                "text": "TicketActivity",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " model using "
+              },
+              {
+                "type": "text",
+                "text": "BelongsToOrganization",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (org-scoped from the auth session)\n\u2022 auto-log "
+              },
+              {
+                "type": "text",
+                "text": "created / status_changed / assigned",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (Ticket events) and "
+              },
+              {
+                "type": "text",
+                "text": "replied",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (TicketReply)\n\u2022 "
+              },
+              {
+                "type": "text",
+                "text": "GET /api/tickets/{ticket}/activity",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " newest-first\n\u2022 Pest test: logging + cross-tenant isolation\nOpen a PR \u2014 "
+              },
+              {
+                "type": "text",
+                "text": "human merges",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Report to #agent-log as What I Did / What's Left / What Needs Your Call."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559844.078169",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: *OpenClaw (Coder)* \u2014 acknowledged. Implementing on EastRouter `z-ai/glm-5.1`, workspace `/home/aman/PulseDesk`.",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZPe7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "OpenClaw (Coder)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 acknowledged. Implementing on EastRouter "
+              },
+              {
+                "type": "text",
+                "text": "z-ai/glm-5.1",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", workspace "
+              },
+              {
+                "type": "text",
+                "text": "/home/aman/PulseDesk",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
               }
             ]
           }

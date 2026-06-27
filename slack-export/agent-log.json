@@ -2,589 +2,6 @@
   {
     "user": "U0BBVBDNX5H",
     "type": "message",
-    "ts": "1782498602.455539",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 18:30 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "ERJ",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 18:30 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782499201.935609",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 18:40 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "kGSv",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 18:40 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782499801.277449",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 18:50 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "4Ic",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 18:50 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782500401.890989",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:00 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "ScKT",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:00 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782501001.359119",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:10 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "I+hh",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:10 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782501602.176319",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:20 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "VxdN",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:20 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782502201.848209",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:30 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "rzVLa",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:30 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782502802.474329",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:40 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "lPweq",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:40 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782503402.113249",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 19:50 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "Hn9U",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 19:50 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782504001.728309",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 20:00 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "fkaS",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 20:00 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
-    "ts": "1782504602.556679",
-    "bot_id": "B0BBL7PUE0P",
-    "app_id": "A0BBVB035QB",
-    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-26 20:10 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
-    "team": "T0BC1LW03J6",
-    "bot_profile": {
-      "id": "B0BBL7PUE0P",
-      "app_id": "A0BBVB035QB",
-      "user_id": "U0BBVBDNX5H",
-      "name": "Forge2Bot",
-      "icons": {
-        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
-        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
-        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
-      },
-      "deleted": false,
-      "updated": 1782023312,
-      "team_id": "T0BC1LW03J6"
-    },
-    "blocks": [
-      {
-        "type": "rich_text",
-        "block_id": "yBM",
-        "elements": [
-          {
-            "type": "rich_text_section",
-            "elements": [
-              {
-                "type": "emoji",
-                "name": "robot_face",
-                "unicode": "1f916"
-              },
-              {
-                "type": "text",
-                "text": " Forge2 autonomous heartbeat (2026-06-26 20:10 UTC) \u2014 Kanban live: "
-              },
-              {
-                "type": "link",
-                "url": "https://forge2.69.62.76.226.sslip.io"
-              },
-              {
-                "type": "text",
-                "text": " | Board API OK | Cron active"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "U0BBVBDNX5H",
-    "type": "message",
     "ts": "1782505202.516029",
     "bot_id": "B0BBL7PUE0P",
     "app_id": "A0BBVB035QB",
@@ -607,7 +24,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "48Q/",
+        "block_id": "+Eq+N",
         "elements": [
           {
             "type": "rich_text_section",
@@ -660,7 +77,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "dlcA6",
+        "block_id": "oE6s",
         "elements": [
           {
             "type": "rich_text_section",
@@ -713,7 +130,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "Qsi",
+        "block_id": "vwqx",
         "elements": [
           {
             "type": "rich_text_section",
@@ -766,7 +183,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "k4nS",
+        "block_id": "8Pd03",
         "elements": [
           {
             "type": "rich_text_section",
@@ -819,7 +236,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "bNl6r",
+        "block_id": "fCQP",
         "elements": [
           {
             "type": "rich_text_section",
@@ -872,7 +289,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "//OL",
+        "block_id": "UWO",
         "elements": [
           {
             "type": "rich_text_section",
@@ -925,7 +342,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "aB3o6",
+        "block_id": "BL5",
         "elements": [
           {
             "type": "rich_text_section",
@@ -978,7 +395,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "vLw",
+        "block_id": "a60",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1031,7 +448,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "APg4",
+        "block_id": "91I",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1084,7 +501,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "XhdHW",
+        "block_id": "vzC",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1137,7 +554,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "fKj",
+        "block_id": "TYsM",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1190,7 +607,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "rNR",
+        "block_id": "1QFut",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1243,7 +660,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "OR6l+",
+        "block_id": "ItkT",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1296,7 +713,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "t0b",
+        "block_id": "Tup3w",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1349,7 +766,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "9NL",
+        "block_id": "UYfw6",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1402,7 +819,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "VX6Z",
+        "block_id": "G0J",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1455,7 +872,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "b97",
+        "block_id": "P8+M",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1508,7 +925,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "ALd1",
+        "block_id": "tMw",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1561,7 +978,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "E4vd",
+        "block_id": "YSB",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1614,7 +1031,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "NNYn",
+        "block_id": "G+1lh",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1667,7 +1084,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "j3usv",
+        "block_id": "1sTKW",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1720,7 +1137,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "UFX",
+        "block_id": "ZVadB",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1773,7 +1190,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "PPw1",
+        "block_id": "yfcoM",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1826,7 +1243,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "m6s2y",
+        "block_id": "Byld=",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1879,7 +1296,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "2Wxn",
+        "block_id": "YNhU",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1932,7 +1349,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "qTo",
+        "block_id": "H8c",
         "elements": [
           {
             "type": "rich_text_section",
@@ -1985,7 +1402,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "MZXEv",
+        "block_id": "HIwf",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2038,7 +1455,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "r0a",
+        "block_id": "lMZQ",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2091,7 +1508,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "V=sU",
+        "block_id": "i2pj",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2144,7 +1561,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "j00MG",
+        "block_id": "L55EA",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2197,7 +1614,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "gAMC",
+        "block_id": "3ewrW",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2250,7 +1667,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "0YO",
+        "block_id": "1NJi",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2303,7 +1720,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "pR3gQ",
+        "block_id": "JxV",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2356,7 +1773,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "3ub",
+        "block_id": "kqo",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2409,7 +1826,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "5PjnD",
+        "block_id": "UF2DB",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2462,7 +1879,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "fG9O",
+        "block_id": "KEf",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2515,7 +1932,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "1oqBc",
+        "block_id": "izXp4",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2568,7 +1985,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "e3Tcm",
+        "block_id": "h=zU",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2621,7 +2038,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "tVx",
+        "block_id": "LV0",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2674,7 +2091,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "aPI=",
+        "block_id": "tPkhB",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2727,7 +2144,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "eVKoI",
+        "block_id": "cW47",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2780,7 +2197,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "aa7",
+        "block_id": "bDb",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2833,7 +2250,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "g=J",
+        "block_id": "3J3i",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2886,7 +2303,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "FDDz",
+        "block_id": "h=9",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2939,7 +2356,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "soh",
+        "block_id": "OGS",
         "elements": [
           {
             "type": "rich_text_section",
@@ -2992,7 +2409,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "cPRd6",
+        "block_id": "Yfw5w",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3045,7 +2462,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "jsjw",
+        "block_id": "HyM1v",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3098,7 +2515,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "+8De",
+        "block_id": "XEF",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3151,7 +2568,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "P3o",
+        "block_id": "p7N",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3204,7 +2621,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "UdV",
+        "block_id": "YqYUe",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3257,7 +2674,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "PJwcx",
+        "block_id": "53b",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3310,7 +2727,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "qo/",
+        "block_id": "vrm6k",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3363,7 +2780,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "EAmr",
+        "block_id": "GL2",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3416,7 +2833,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "Rneqt",
+        "block_id": "H5HZ",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3469,7 +2886,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "MPe8l",
+        "block_id": "lkjHS",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3522,7 +2939,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "4JpD",
+        "block_id": "cr7HK",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3575,7 +2992,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "lKJkh",
+        "block_id": "jciyR",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3628,7 +3045,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "TLqc",
+        "block_id": "Bee",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3681,7 +3098,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "PXxr",
+        "block_id": "2yjSq",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3734,7 +3151,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "oWtA",
+        "block_id": "Rw9",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3787,7 +3204,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "Wid",
+        "block_id": "NFIS",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3840,7 +3257,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "CcRP",
+        "block_id": "wn=N6",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3893,7 +3310,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "Uk++",
+        "block_id": "4CYF",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3946,7 +3363,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "VQs",
+        "block_id": "r1NB",
         "elements": [
           {
             "type": "rich_text_section",
@@ -3999,7 +3416,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "E3r",
+        "block_id": "MDf",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4052,7 +3469,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "SRzsC",
+        "block_id": "ZRS",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4105,7 +3522,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "IBJf",
+        "block_id": "RMKE",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4158,7 +3575,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "gAx",
+        "block_id": "4jmYV",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4211,7 +3628,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "r72",
+        "block_id": "Npe6R",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4264,7 +3681,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "+/pN",
+        "block_id": "tgs+T",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4317,7 +3734,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "aMB",
+        "block_id": "g49",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4370,7 +3787,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "uh3",
+        "block_id": "jggeJ",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4423,7 +3840,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "07br",
+        "block_id": "0Dhpi",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4476,7 +3893,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "3dUL5",
+        "block_id": "9+KV",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4529,7 +3946,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "v554",
+        "block_id": "4FvJO",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4582,7 +3999,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "bXnh",
+        "block_id": "dJSn",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4635,7 +4052,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "MoaDp",
+        "block_id": "9AA3",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4688,7 +4105,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "NBruB",
+        "block_id": "dFt",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4741,7 +4158,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "wt857",
+        "block_id": "5Thx",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4779,22 +4196,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "kyPNw",
+        "block_id": "cY8Xl",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4832,22 +4249,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "1j1",
+        "block_id": "kMy",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4885,22 +4302,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "ygEB7",
+        "block_id": "qG6cA",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4938,22 +4355,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "HBIEZ",
+        "block_id": "2P2",
         "elements": [
           {
             "type": "rich_text_section",
@@ -4991,22 +4408,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "OMa/y",
+        "block_id": "yOyoI",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5044,22 +4461,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "JQi",
+        "block_id": "Dv3",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5097,22 +4514,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "U2Y",
+        "block_id": "5MHO",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5145,22 +4562,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "8T7",
+        "block_id": "WJE8",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5198,22 +4615,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "oMh",
+        "block_id": "LGb",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5246,22 +4663,22 @@
     "team": "T0BC1LW03J6",
     "bot_profile": {
       "id": "B0BBL7PUE0P",
-      "deleted": false,
-      "name": "Forge2Bot",
-      "updated": 1782023312,
       "app_id": "A0BBVB035QB",
       "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
       "icons": {
         "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
         "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
         "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
       },
+      "deleted": false,
+      "updated": 1782023312,
       "team_id": "T0BC1LW03J6"
     },
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "KB77",
+        "block_id": "/cE",
         "elements": [
           {
             "type": "rich_text_section",
@@ -5282,6 +4699,686 @@
               {
                 "type": "text",
                 "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782557224.119959",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at <https://forge2.69.62.76.226.sslip.io>\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\").",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "name": "Forge2Bot",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "deleted": false,
+      "updated": 1782023312,
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "edZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": "\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\")."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782557401.834069",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-27 10:50 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iNd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " Forge2 autonomous heartbeat (2026-06-27 10:50 UTC) \u2014 Kanban live: "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782557888.688129",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at <https://forge2.69.62.76.226.sslip.io>\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\").",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xnrD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": "\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\")."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782558001.317509",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-27 11:00 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wLLy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " Forge2 autonomous heartbeat (2026-06-27 11:00 UTC) \u2014 Kanban live: "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782558537.501889",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at <https://forge2.69.62.76.226.sslip.io>\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\").",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eRo9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": "\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\")."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782558601.763019",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-27 11:10 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lOej",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " Forge2 autonomous heartbeat (2026-06-27 11:10 UTC) \u2014 Kanban live: "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559201.389399",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-27 11:20 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g5Vnd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " Forge2 autonomous heartbeat (2026-06-27 11:20 UTC) \u2014 Kanban live: "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559204.390749",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at <https://forge2.69.62.76.226.sslip.io>\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\").",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rYv0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": "\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\")."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559802.173029",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: Forge2 autonomous heartbeat (2026-06-27 11:30 UTC) \u2014 Kanban live: <https://forge2.69.62.76.226.sslip.io> | Board API OK | Cron active",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RYF+7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " Forge2 autonomous heartbeat (2026-06-27 11:30 UTC) \u2014 Kanban live: "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": " | Board API OK | Cron active"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559845.340159",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":robot_face: *OpenClaw (Coder)* \u2014 Issue 1 report\n\n*What I Did:* Implemented the ticket activity log (EastRouter z-ai/glm-5.1): migration `ticket_activities` (organization_id, ticket_id, actor_id, event, meta json); `TicketActivity` model with the org global scope; model-event logging on Ticket `created/status_changed/assigned` and TicketReply `replied`; `GET /api/tickets/{ticket}/activity` (org-scoped, newest-first); `ActivityTest` (logging + cross-tenant). Pushed branch `feature/ticket-activity-log`.\n*What's Left:* SLA timers + notifications (Sprint 3 Issues 2\u20133).\n*What Needs Your Call:* Review &amp; merge the PR. :white_check_mark: 11/11 feature tests green.",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iOKZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "robot_face",
+                "unicode": "1f916"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "OpenClaw (Coder)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 Issue 1 report\n\n"
+              },
+              {
+                "type": "text",
+                "text": "What I Did:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Implemented the ticket activity log (EastRouter z-ai/glm-5.1): migration "
+              },
+              {
+                "type": "text",
+                "text": "ticket_activities",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (organization_id, ticket_id, actor_id, event, meta json); "
+              },
+              {
+                "type": "text",
+                "text": "TicketActivity",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " model with the org global scope; model-event logging on Ticket "
+              },
+              {
+                "type": "text",
+                "text": "created/status_changed/assigned",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and TicketReply "
+              },
+              {
+                "type": "text",
+                "text": "replied",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "; "
+              },
+              {
+                "type": "text",
+                "text": "GET /api/tickets/{ticket}/activity",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (org-scoped, newest-first); "
+              },
+              {
+                "type": "text",
+                "text": "ActivityTest",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (logging + cross-tenant). Pushed branch "
+              },
+              {
+                "type": "text",
+                "text": "feature/ticket-activity-log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n"
+              },
+              {
+                "type": "text",
+                "text": "What's Left:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " SLA timers + notifications (Sprint 3 Issues 2\u20133).\n"
+              },
+              {
+                "type": "text",
+                "text": "What Needs Your Call:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Review & merge the PR. "
+              },
+              {
+                "type": "emoji",
+                "name": "white_check_mark",
+                "unicode": "2705"
+              },
+              {
+                "type": "text",
+                "text": " 11/11 feature tests green."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782559865.098989",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at <https://forge2.69.62.76.226.sslip.io>\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\").",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oqj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cronjob Response: forge2-progress\n(job_id: 094961b27fff)\n-------------\n\nForge2 autonomous heartbeat \u2014 Kanban live at "
+              },
+              {
+                "type": "link",
+                "url": "https://forge2.69.62.76.226.sslip.io"
+              },
+              {
+                "type": "text",
+                "text": "\n\nTo stop or manage this job, send me a new message (e.g. \"stop reminder forge2-progress\")."
               }
             ]
           }
