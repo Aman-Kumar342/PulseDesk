@@ -39,7 +39,7 @@
     "blocks": [
       {
         "type": "rich_text",
-        "block_id": "Tquk",
+        "block_id": "0/3",
         "elements": [
           {
             "type": "rich_text_section",
@@ -85,6 +85,402 @@
               {
                 "type": "text",
                 "text": " (human approval gate)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "U0BBVBDNX5H",
+    "type": "message",
+    "ts": "1782560034.334069",
+    "bot_id": "B0BBL7PUE0P",
+    "app_id": "A0BBVB035QB",
+    "text": ":mag: *OpenClaw-QA (Reviewer agent)* \u2014 PR `feature/ticket-activity-log` review\n\n## VERDICT: REQUEST CHANGES\n- **:red_circle: Cross-tenant leak in `activity()` controller \u2014 no explicit org guard.** The method is `return $ticket-&gt;activities()-&gt;with('actor')-&gt;get();` with **no explicit `organization_id` check** against the authenticated user. It relies entirely on a global scope existing on `Ticket` (via `BelongsToOrganization` or similar) that isn't visible in this diff. If that scope is absent, misconfigured, or bypassed (queue context, middleware ordering), **any authenticated user can read any tenant's activity feed** by guessing/enumerating ticket IDs. Fix: add an explicit guard \u2014\n  ```php\n  abort_unless($ticket-&gt;organization_id === $r-&gt;user()-&gt;organization_id, 404);\n  ```\n  \u2026or apply a scoped policy: `Gate::authorize('view', $ticket)` before returning.\n- **:large_yellow_circle: Cross-tenant test is shallow \u2014 proves route-binding 404, not query isolation.** `test_cross_tenant_activity_not_visible` passes as long as implicit binding returns 404, but it never asserts that `TicketActivity` is independently scoped. If someone later adds a query path that bypasses the ticket binding (e.g., a search endpoint), the isolation hole goes undetected. Add a direct-assert test: query `TicketActivity::forTicket($tB-&gt;id)` from org-A context and assert zero results.\n- **:large_yellow_circle: `auth()-&gt;id()` is fragile in non-HTTP contexts.** `logActivity()` calls `auth()-&gt;id()` inside model events. If a ticket is updated from a queue job, webhook, or `php artisan tinker`, `auth()` is null. `actor_id` is nullable so it won't crash, but silent `null` actors create misleading audit trails. Consider injecting the actor explicitly or using `Auth::hasUser()` guard, plus a fallback to a system user.\n- **:large_yellow_circle: Missing test coverage for `replied` and `assigned` events.** `TicketReply::booted()` and the `assignee_id` branch in `Ticket::booted()` are new behavioral code with zero tests. Add a test that creates a reply and asserts a `replied` activity row exists, and one for assignment.\n**Minor:** `activity()` returns an unpaginated collection \u2014 add `-&gt;paginate(50)` to prevent unbounded payloads on long-lived tickets.",
+    "team": "T0BC1LW03J6",
+    "bot_profile": {
+      "id": "B0BBL7PUE0P",
+      "deleted": false,
+      "name": "Forge2Bot",
+      "updated": 1782023312,
+      "app_id": "A0BBVB035QB",
+      "user_id": "U0BBVBDNX5H",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T0BC1LW03J6"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JOc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "mag",
+                "unicode": "1f50d"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "OpenClaw-QA (Reviewer agent)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " \u2014 PR "
+              },
+              {
+                "type": "text",
+                "text": "feature/ticket-activity-log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " review\n\n## VERDICT: REQUEST CHANGES\n- **"
+              },
+              {
+                "type": "emoji",
+                "name": "red_circle",
+                "unicode": "1f534"
+              },
+              {
+                "type": "text",
+                "text": " Cross-tenant leak in "
+              },
+              {
+                "type": "text",
+                "text": "activity()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " controller \u2014 no explicit org guard.** The method is "
+              },
+              {
+                "type": "text",
+                "text": "return $ticket->activities()->with('actor')->get();",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " with **no explicit "
+              },
+              {
+                "type": "text",
+                "text": "organization_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " check** against the authenticated user. It relies entirely on a global scope existing on "
+              },
+              {
+                "type": "text",
+                "text": "Ticket",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " (via "
+              },
+              {
+                "type": "text",
+                "text": "BelongsToOrganization",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " or similar) that isn't visible in this diff. If that scope is absent, misconfigured, or bypassed (queue context, middleware ordering), **any authenticated user can read any tenant's activity feed** by guessing/enumerating ticket IDs. Fix: add an explicit guard \u2014\n  "
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "php\n  abort_unless($ticket->organization_id === $r->user()->organization_id, 404);\n  "
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "  \u2026or apply a scoped policy: "
+              },
+              {
+                "type": "text",
+                "text": "Gate::authorize('view', $ticket)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " before returning.\n- **"
+              },
+              {
+                "type": "emoji",
+                "name": "large_yellow_circle",
+                "unicode": "1f7e1"
+              },
+              {
+                "type": "text",
+                "text": " Cross-tenant test is shallow \u2014 proves route-binding 404, not query isolation.** "
+              },
+              {
+                "type": "text",
+                "text": "test_cross_tenant_activity_not_visible",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " passes as long as implicit binding returns 404, but it never asserts that "
+              },
+              {
+                "type": "text",
+                "text": "TicketActivity",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is independently scoped. If someone later adds a query path that bypasses the ticket binding (e.g., a search endpoint), the isolation hole goes undetected. Add a direct-assert test: query "
+              },
+              {
+                "type": "text",
+                "text": "TicketActivity::forTicket($tB->id)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " from org-A context and assert zero results.\n- **"
+              },
+              {
+                "type": "emoji",
+                "name": "large_yellow_circle",
+                "unicode": "1f7e1"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "auth()->id()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is fragile in non-HTTP contexts.** "
+              },
+              {
+                "type": "text",
+                "text": "logActivity()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " calls "
+              },
+              {
+                "type": "text",
+                "text": "auth()->id()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " inside model events. If a ticket is updated from a queue job, webhook, or "
+              },
+              {
+                "type": "text",
+                "text": "php artisan tinker",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "auth()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is null. "
+              },
+              {
+                "type": "text",
+                "text": "actor_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is nullable so it won't crash, but silent "
+              },
+              {
+                "type": "text",
+                "text": "null",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " actors create misleading audit trails. Consider injecting the actor explicitly or using "
+              },
+              {
+                "type": "text",
+                "text": "Auth::hasUser()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " guard, plus a fallback to a system user.\n- **"
+              },
+              {
+                "type": "emoji",
+                "name": "large_yellow_circle",
+                "unicode": "1f7e1"
+              },
+              {
+                "type": "text",
+                "text": " Missing test coverage for "
+              },
+              {
+                "type": "text",
+                "text": "replied",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "assigned",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " events.** "
+              },
+              {
+                "type": "text",
+                "text": "TicketReply::booted()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and the "
+              },
+              {
+                "type": "text",
+                "text": "assignee_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " branch in "
+              },
+              {
+                "type": "text",
+                "text": "Ticket::booted()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " are new behavioral code with zero tests. Add a test that creates a reply and asserts a "
+              },
+              {
+                "type": "text",
+                "text": "replied",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " activity row exists, and one for assignment.\n**Minor:** "
+              },
+              {
+                "type": "text",
+                "text": "activity()",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " returns an unpaginated collection \u2014 add "
+              },
+              {
+                "type": "text",
+                "text": "->paginate(50)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to prevent unbounded payloads on long-lived tickets."
               }
             ]
           }

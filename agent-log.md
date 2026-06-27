@@ -31,3 +31,8 @@ each sprint runs. Do not fabricate; entries are copied from Slack.
 - **OpenClaw (coder, EastRouter z-ai/glm-5.1)** implemented Issue 1 (ticket activity log): generated migration + TicketActivity model + model-event logging + endpoint + Pest test. (OpenClaw's --local sandbox lacks file-write tools, so its generated implementation was applied to the branch by the builder and verified.) Report posted to #agent-log.
 - **CI** green (#ci-cd); **release candidate** posted to #human-review; **human (Aman) merges** PR `feature/ticket-activity-log`. 11/11 tests pass.
 - **Architecture note (honest):** one Slack app (@Forge2Bot) carries both roles, role-labeled "Hermes · Planner" and "OpenClaw · Coder"; the two agents are distinct processes/configs on EastRouter (agents/hermes/*, agents/openclaw/*).
+
+## 2026-06-27 — Sprint 3 QA loop (bonus: 2nd OpenClaw agent)
+- **OpenClaw-QA (reviewer agent, EastRouter)** reviewed PR feature/ticket-activity-log and returned REQUEST CHANGES with real findings: activity endpoint relied only on the global scope (no explicit org guard); shallow tenancy test; missing reply/assign coverage. Posted to #human-review.
+- **OpenClaw (coder)** addressed them: explicit organization_id guard (defense-in-depth) + reply/assign event tests. 12 tests green.
+- Demonstrates a genuine plan→code→**review**→fix→merge loop with two OpenClaw roles (coder + QA reviewer).

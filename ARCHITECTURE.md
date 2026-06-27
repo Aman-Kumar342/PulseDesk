@@ -33,3 +33,6 @@ cross-tenant denial.
 Hermes (planner, EastRouter z-ai/glm-5.1, memory on) decomposes the spec into
 scoped issues in Slack; OpenClaw (coder, EastRouter) implements, tests, opens a PR
 and reports in #agent-log; CI runs; a human merges to main. See agent-log.md.
+
+## Bonus agent
+OpenClaw-QA — a second OpenClaw role acting as code reviewer/QA on EastRouter; reviews PRs and posts findings to #human-review (see agent-log.md, slack-export/human-review.json).
