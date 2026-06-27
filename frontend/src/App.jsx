@@ -5,6 +5,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Tickets from './pages/Tickets'
 import TicketDetail from './pages/TicketDetail'
+import Team from './pages/Team'
 
 function Shell({ children }) {
   const nav = useNavigate()
@@ -13,7 +14,7 @@ function Shell({ children }) {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <header className="bg-indigo-600 text-white px-6 py-3 flex items-center justify-between shadow">
-        <Link to="/" className="font-bold text-lg">🎫 PulseDesk</Link>
+        <div className="flex items-center gap-4"><Link to="/" className="font-bold text-lg">🎫 PulseDesk</Link>{me?.role==="admin" && <Link to="/team" className="text-sm bg-indigo-500 hover:bg-indigo-400 px-3 py-1 rounded">Team</Link>}</div>
         <div className="text-sm flex items-center gap-4">
           {me && <span>{me.name} · <span className="opacity-80">{me.role}</span> · {me.organization?.name}</span>}
           <button onClick={() => { localStorage.removeItem('token'); nav('/login') }} className="bg-indigo-500 hover:bg-indigo-400 px-3 py-1 rounded">Logout</button>
@@ -31,6 +32,7 @@ export default function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/" element={auth() ? <Shell><Tickets /></Shell> : <Navigate to="/login" />} />
       <Route path="/tickets/:id" element={auth() ? <Shell><TicketDetail /></Shell> : <Navigate to="/login" />} />
+      <Route path="/team" element={auth() ? <Shell><Team /></Shell> : <Navigate to="/login" />} />
     </Routes>
   )
 }
