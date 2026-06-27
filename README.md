@@ -30,7 +30,7 @@ This repo is also an **agent-built project**: the work was planned by **Hermes**
 
 ## Live URL
 
-`http://69.62.76.226:8000`  _(VPS — frontend served by Vite / API on :8000; update once deployed)_
+`https://pulsedesk.69.62.76.226.sslip.io` — live (Caddy HTTPS, React build + /api proxy to Laravel)
 
 If the live URL is down at judging time, follow **Run locally** below — the app
 runs from a fresh clone.
