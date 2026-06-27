@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 class TicketController extends Controller {
     public function index(Request $r) {
         $q = Ticket::query()->with(['requester','assignee','tags'])->withCount('replies');
+        if ($r->user()->isCustomer()) $q->where('requester_id', $r->user()->id);
         if ($r->filled('status'))   $q->where('status', $r->status);
         if ($r->filled('priority')) $q->where('priority', $r->priority);
         if ($r->filled('assignee_id')) $q->where('assignee_id', $r->assignee_id);
@@ -26,8 +27,13 @@ class TicketController extends Controller {
         $ticket = Ticket::create($data);
         return response()->json($ticket->load(['requester','assignee']), 201);
     }
-    public function show(Ticket $ticket) {
-        return $ticket->load(['requester','assignee','tags','replies.user']);
+    public function show(\Illuminate\Http\Request $r, Ticket $ticket) {
+        if ($r->user()->isCustomer() && $ticket->requester_id !== $r->user()->id) abort(404);
+        $ticket->load(['requester','assignee','tags']);
+        $replies = $ticket->replies()->with('user')
+            ->when($r->user()->isCustomer(), fn($q) => $q->where('is_internal', false))->get();
+        $ticket->setRelation('replies', $replies);
+        return $ticket;
     }
     public function update(Request $r, Ticket $ticket) {
         $data = $r->validate([
