@@ -45,4 +45,19 @@ class TicketController extends Controller {
         $ticket->update($data);
         return $ticket->fresh()->load('assignee');
     }
+
+    public function export(\Illuminate\Http\Request $r) {
+        $tickets = Ticket::with(['requester','assignee'])->latest()->get();
+        $cols = ['id','subject','status','priority','requester','assignee','created_at'];
+        $cb = function () use ($tickets, $cols) {
+            $out = fopen('php://output', 'w');
+            fputcsv($out, $cols);
+            foreach ($tickets as $t) {
+                fputcsv($out, [$t->id, $t->subject, $t->status, $t->priority,
+                    optional($t->requester)->name, optional($t->assignee)->name, $t->created_at]);
+            }
+            fclose($out);
+        };
+        return response()->streamDownload($cb, 'tickets.csv', ['Content-Type' => 'text/csv']);
+    }
 }
