@@ -14,6 +14,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/tickets/export', [TicketController::class, 'export']);
     Route::post('/tickets', [TicketController::class, 'store']);
     Route::get('/tickets/{ticket}', [TicketController::class, 'show']);
+    Route::get('/tickets/{ticket}/activity', [TicketController::class, 'activity']);
     Route::match(['put','patch'], '/tickets/{ticket}', [TicketController::class, 'update']);
     Route::post('/tickets/{ticket}/replies', [TicketReplyController::class, 'store']);
     Route::post('/tickets/{ticket}/assign', [TicketController::class, 'assign']);

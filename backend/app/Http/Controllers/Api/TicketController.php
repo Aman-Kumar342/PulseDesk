@@ -60,4 +60,9 @@ class TicketController extends Controller {
         };
         return response()->streamDownload($cb, 'tickets.csv', ['Content-Type' => 'text/csv']);
     }
+
+    public function activity(Ticket $ticket) {
+        abort_unless($ticket->organization_id === auth()->user()->organization_id, 404);
+        return $ticket->activities()->with('actor')->get();
+    }
 }

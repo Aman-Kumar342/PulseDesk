@@ -8,4 +8,17 @@ class TicketReply extends Model {
     protected $casts = ['is_internal' => 'boolean'];
     public function ticket() { return $this->belongsTo(Ticket::class); }
     public function user() { return $this->belongsTo(User::class); }
+
+    protected static function booted(): void
+    {
+        static::created(function ($r) {
+            \App\Models\TicketActivity::create([
+                'organization_id' => $r->organization_id,
+                'ticket_id' => $r->ticket_id,
+                'actor_id' => $r->user_id,
+                'event' => 'replied',
+                'meta' => ['internal' => (bool) $r->is_internal],
+            ]);
+        });
+    }
 }
