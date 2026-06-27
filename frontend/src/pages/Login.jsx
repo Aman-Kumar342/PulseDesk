@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import api from '../api'
 export default function Login() {
   const [email, setEmail] = useState('admin@pulsedesk.test')
@@ -22,6 +22,7 @@ export default function Login() {
         <input className="w-full border rounded px-3 py-2" value={email} onChange={e=>setEmail(e.target.value)} placeholder="Email" />
         <input className="w-full border rounded px-3 py-2" type="password" value={password} onChange={e=>setPassword(e.target.value)} placeholder="Password" />
         <button className="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700">Sign in</button>
+        <p className="text-xs text-slate-500 text-center">No account? <Link to="/register" className="text-indigo-600">Create one</Link></p>
         <p className="text-xs text-slate-400">Demo: admin@pulsedesk.test / password</p>
       </form>
     </div>

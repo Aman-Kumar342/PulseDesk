@@ -2,6 +2,7 @@ import { Routes, Route, Navigate, Link, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import api from './api'
 import Login from './pages/Login'
+import Register from './pages/Register'
 import Tickets from './pages/Tickets'
 import TicketDetail from './pages/TicketDetail'
 
@@ -27,6 +28,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/" element={auth() ? <Shell><Tickets /></Shell> : <Navigate to="/login" />} />
       <Route path="/tickets/:id" element={auth() ? <Shell><TicketDetail /></Shell> : <Navigate to="/login" />} />
     </Routes>
